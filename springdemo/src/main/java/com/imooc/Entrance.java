@@ -12,6 +12,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 @ComponentScan("com.imooc")
 public class Entrance {
 
+	// xml
 	public static void main1(String[] args) {
 		System.out.println("Hello World!");
 
@@ -25,7 +26,7 @@ public class Entrance {
 
 	}
 
-
+	// annotation
 	public static void main(String[] args) {
 
 		ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Entrance.class);
